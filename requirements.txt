@@ -1,0 +1,20 @@
+# Servidor web
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+httpx>=0.27.0
+python-multipart>=0.0.9
+
+# Engine de conversão (reaproveita os scripts existentes)
+pymupdf>=1.24.0
+pdfplumber>=0.11.0
+beautifulsoup4>=4.12.0
+charset-normalizer>=3.3.0
+chardet>=5.2.0
+
+# Suporte a arquivos Office (opcional, mas recomendado)
+markitdown>=0.0.11
+
+# OCR de imagens (opcional — só necessário se for processar PNG/JPG/TIFF)
+# pytesseract>=0.3.10
+# Pillow>=10.0.0
+# Requer tesseract-ocr instalado no sistema: apt-get install tesseract-ocr tesseract-ocr-por
